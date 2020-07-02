@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;400&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .pink {
+    background-color: #F07879;
+  }
+
+  .mostaza {
+    background-color: #D0CE00;
+  }
+
+  section#v1 {
+    display: grid;
+    grid-template-rows: 18% 32% 32% 18%;
+    grid-template-columns: 10% 35% 10% 10% 15% 10% 10%;
+    width: 810px;
+    height: 810px;
+    border: 2px solid #CCC;
+    overflow: hidden;
+    margin: 30px auto;
+  }
+
+  section#v1 .coming-soon {
+    font-size: 80px;
+    font-weight: 700;
+    transform: rotate(270deg);
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    padding: 32% 10% 25% 12%;
+    line-height: 0.8em;
+    background-color: #FFF;
+    z-index: 30;
+    margin: 0;
+  }
+
+  section#v1 .lorem-ipsum {
+    grid-column: 3 / span 4;
+    grid-row: 3 / span 1;
+    font-size: 27px;
+    font-weight: 400;
+    color: #FFF;
+    z-index: 20;
+    margin: 5% 5% 5% 10%;
+    line-height: 1.4em;
+    word-spacing: 10px;
+  }
+
+  section#v1 .image {
+    grid-column: 2 / span 4;
+    grid-row: 2 / 4;
+    background-image: url('/img/women-at-work.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    z-index: 10;
+    filter: grayscale(1);
+  }
+
+  section#v1 .with-color {
+    grid-column: 4 / span 3;
+    grid-row: 1 / -1;
+    z-index: 10;
+    mix-blend-mode: overlay;
+  }
+
+
+  section#v2 {
+    display: grid;
+    grid-template-rows: 9% 6% 3% 23% 9% 8% 8% 8% 8% 9% 9%;
+    grid-template-columns: 8% 17% 8% 27% 30% 10%;
+    width: 810px;
+    height: 810px;
+    border: 2px solid #CCC;
+    overflow: hidden;
+    margin: 30px auto;
+  }
+
+  section#v2 h1 {
+    grid-column: 2 / span 3;
+    grid-row: 8 / span 2;
+    z-index: 50;
+    font-size: 80px;
+    margin: 0;
+    line-height: 0.9em;
+  }
+
+  section#v2 .lorem-ipsum {
+    grid-column: 4 / span 2;
+    grid-row: 3 / span 2;
+    margin: 0;
+    z-index: 30;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    word-spacing: 6px;
+    line-height: 1.09em;
+  }
+
+  section#v2 .image {
+    grid-column: 3 / span 3;
+    grid-row: 2 / span 7;
+    background-image: url('/img/roofing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    z-index: 20;
+    filter: grayscale(1);
+  }
+
+  section#v2 .with-color {
+    grid-column: 1 / -1;
+    grid-row: 7 / span 4;
+    z-index: 40;
+    opacity: 0.2;
+  }
+
+  section#v2 .white-fix {
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 4;
+    z-index: 20;
+    background-color: #FFF;
+  }
+
+</style>
+<body>
+  <main>
+    <section id="v1">
+      <p class="coming-soon">Coming<br> Soon</p>
+      <p class="lorem-ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="image"></div>
+      <div class="with-color pink"></div>
+    </section>
+
+    <section id="v2">
+      <p class="lorem-ipsum">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit,<br>sed do eiusmod tempor<br>incididunt ut labore et<br>dolore magna aliqua.</p>
+      <h1>Modern <br>Style</h1>
+      <div class="image"></div>
+      <div class="white-fix"></div>
+      <div class="with-color mostaza"></div>
+    </section>
+  </main>
+</body>
+</html>
