@@ -1,0 +1,114 @@
+.mockup
+  {
+    display: grid;
+    grid-template-columns: 13% 30% 8% 6% 30% 13%;
+    grid-template-rows: 11% 28% 11% 11% 28% 11%;
+    width: 1000px;
+    height: 97.5vh;
+    background-color: #ececec;
+    margin: 0 auto;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 8% 35% 7% 12% 15% 15% 8%;
+    grid-template-rows: 18% 20% 12% 35% 15%;
+    background-color: #ffffff;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    box-shadow: 30px 30px 20px rgba(216, 216, 216, .8);
+}
+
+.section__img {
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBds8eWb0c-t6KawpbQrNCvh2xApqWi3v9wA&usqp=CAU');
+     background-size: cover;
+     grid-column: 2 / 6;
+     grid-row: 2 / 5;
+ }
+
+.section__orange {
+    background-color: rgba(241, 120, 122, .7);
+    grid-column: 5 / 7;
+    grid-row: 1 / 6;
+}
+
+.section__white {
+    background-color: #ffffff;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+
+.section__text1 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    grid-column: 2;
+    grid-row: 1 / 4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px 50px;
+    line-height: 20pt;
+}
+
+.section__text2 {
+    color: #ffffff;
+    grid-column: 4 / 7;
+    grid-row: 4 / 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1pt;
+    line-height: 9pt;
+}
+
+.aside {
+    display: grid;
+    grid-template-columns: 5% 20% 8% 20% 8% 25% 9% 5%;
+    grid-template-rows: 8% 36% 6% 8% 17% 17% 8%;
+    background-color: #ffffff;
+    grid-column: 5 / 6;
+    grid-row: 3 / 6;
+    box-shadow: 25px 25px 20px rgba(216, 216, 216, .8);
+}
+
+
+.aside__img {
+    background-image: url('https://c8.alamy.com/compes/2ber8nw/singapur-27-de-septiembre-de-2019-la-cascada-interior-mas-grande-del-mundo-en-el-aeropuerto-de-jewel-changi-2ber8nw.jpg');
+    grid-column: 3 / 8;
+    grid-row: 2 / 6;
+}
+
+.aside__yellow {
+    background-color: rgba(206, 204, 21, .7);
+    grid-column: 1 / 10;
+    grid-row: 5 / 7;
+}
+
+.aside__white {
+    background-color: #ffffff;
+    grid-column: 1 / 6;
+    grid-row: 3 / 6;
+}
+
+.aside__text1 {
+    grid-column: 2;
+    grid-row: 5 / 6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 25px 5px;
+    line-height: 25pt;
+}
+
+.aside__text2 {
+    color: #ffffff;
+    grid-column: 4 / 8;
+    grid-row: 2 / 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1pt;
+    line-height: 9pt;
+    margin-top: 10px;
+    margin-right: 10px;
+}

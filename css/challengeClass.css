@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    grid-template-columns: 16% 8% 14% 12% 20% 30%;
+    grid-template-rows: 5% 15% 10% 20% 20% 12% 18%;
+    width: 500px;
+    height: 300px; 
+    background: papayawhip;
+    position: relative;
+  }
+  
+  .orange {
+    background: orange;
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 2;
+  }
+  
+  .white {
+    background: white;
+    grid-column: 3 / span 3;
+    grid-row: 4 / span 2;
+    z-index: 1;
+  }
+  
+  .turquoise {
+    border: 10px solid #ffffff;
+    background: turquoise;
+    grid-column: 5 / span 2;
+    grid-row: 2 / span 5;
+  }
+  
+  h1 {
+    color: red;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    z-index: 1;
+    font-size: 15em;
+    opacity: .5
+  }
