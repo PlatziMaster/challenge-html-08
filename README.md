@@ -20,8 +20,8 @@ Debes replicar los dos siguientes mockups usando CSS Grid.
 
 ## 🎨 ¿Cómo contribuir?
 
-Si quieres agregar o mejorar algo, te invito a colaborar directamente en este repositorio: [challenge-html-07](https://github.com/platzimaster/challenge-html-07/)
+Si quieres agregar o mejorar algo, te invito a colaborar directamente en este repositorio: [challenge-html-08](https://github.com/platzimaster/challenge-html-08/)
 
 ## 🎨 Licencia
 
-challenge-html-06 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+challenge-html-08 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
