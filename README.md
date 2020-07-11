@@ -1,6 +1,11 @@
 # 🎨 Challenge HTML 08
 
-Overlap in CSS using CSS Grid.
+Overlap in CSS using CSS Grid.  [Demo Live](https://johndev85.github.io/challenge-html-08/ "Demo Live")
+
+Challenge finished
+
+![](https://i.imgur.com/mnSRNal.png)
+
 
 ## 🎨 ¿En qué consiste?
 
