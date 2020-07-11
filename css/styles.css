@@ -158,3 +158,44 @@ body {
     height: 180px;
     background-color: white;
 }
+
+/* <--------------------- RESPONSIVE------------------------> */
+
+@media screen and (max-width:768px) {
+
+    body {
+        width: 768px;
+        height: 500%;
+    }
+
+    .main {
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .main__container {
+        top: 60px;
+    }
+
+    .main__container--title {
+        width: 47%;
+    }
+
+    .main__container--title h1 {
+        font-size: 35px;
+    }
+
+    .main__container--img {
+        bottom: 64px;
+        position: relative;
+    }
+
+    .secondCont__text {
+        left: 80px;
+    }
+
+    .secondCont {
+        top: 130px;
+    }
+
+}
