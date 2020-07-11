@@ -2,6 +2,9 @@
 
 Overlap in CSS using CSS Grid.
 
+![](https://imgur.com/mnSRNal)
+
+
 ## 🎨 ¿En qué consiste?
 
 Debes replicar los dos siguientes mockups usando CSS Grid.
