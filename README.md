@@ -2,7 +2,9 @@
 
 Overlap in CSS using CSS Grid.
 
-![](https://imgur.com/mnSRNal)
+Challenge finished
+
+![](https://i.imgur.com/mnSRNal.png)
 
 
 ## 🎨 ¿En qué consiste?
