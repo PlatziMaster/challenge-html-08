@@ -1,0 +1,141 @@
+body{
+   margin: 20px;
+   padding: 0;
+   font-size: 40px;
+   background: hsl(203, 29%, 22%);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor-left, .contenedor-right{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    text-align: left;
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+}
+.contenedor-right{
+    position: relative;
+    left: 100%;
+    top: -100%;
+}
+.content_areas{
+    
+    background: white;
+    width: 580px;
+    height: 580px;
+}
+
+.area1{
+    background-image: url(https://cuadrosyvinilos.es/content/upload/master/aa9a5746-81a2-4bcd-af1c-340308a4625b.jpg);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 400px;
+    left: 10%;
+    top: 15%;
+    position: relative;
+}
+.area_c1{
+    background-image: url('https://lh3.googleusercontent.com/proxy/Dk734O52zFAAWj68x6z2GSvUChecBEYEi48sphcGrQp71-oJhdQxhbHe7K9FXC_89O2JGB2Uqy13PDlJJ0mLFfvSKd2nrDaiHVYuy2EwyokP8f1OuNSBeKspsN4RlaFT');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    left: 23%;
+    top: 8%;
+    position: relative;
+}
+.area2{
+  
+    position: relative;
+    transform: rotate(-90deg);
+    width: 210px;
+    height: 180px;
+    left: 7.2%;
+    top: -60%;
+    background: white;
+    color: black;
+    margin-top: -20px;
+    
+    
+}
+.area2_title{
+   text-align: left;
+   margin: 0px;
+   position: relative;
+   left: 30px;
+   letter-spacing: 2px;
+   font-weight: bold;
+
+}
+.area_c2{
+
+    position: relative;
+    width: 210px;
+    height: 180px;
+    left: 7.2%;
+    top: -60%;
+    color: white;
+    margin-top: -20px;
+
+}
+.title_c2{
+
+    text-align: left;
+    margin: 0px;
+    position: relative;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    left: 50%;
+    top: 25%;
+    background-color:rgba(83, 81, 81, 0.8);
+    padding: 10px;
+}
+
+.area3{
+    background-color:rgba(241, 120, 122, 0.8);
+    position: relative;
+    width: 580px;
+    height: 150px;
+    left: -168.2%;
+    top: 125%;
+}
+.area_c3{
+
+    background-color:  rgb(212, 220, 2,0.8);
+    position: relative;
+    width: 580px;
+    height: 180px;
+    left: -20%;
+    z-index: 2;
+    top: 110%;
+}
+.area4{
+    position: relative;
+    height: 150px;
+    width: 250px;
+    left: -110%;
+    top: 10%;
+    font-size: 20px;
+    transform: rotate(90deg);
+    color: white;   
+}
+.area_c4{
+    background: white;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: -30%;
+    left: -20%;
+   
+}
+.area_c5{
+    position: relative;
+    left: 12%;
+    z-index: 3;
+    top: -80%;
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+}
+    
