@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #243238;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  width: 90%;
+  height: 70%;
+  background-color: #ececec;
+  display: grid;
+  grid-template: 15% 15% 40% 15% 15% / 11% 35% 8% 35% 11%;
+}
+.card {
+  background-color: white;
+  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.2);
+}
+.left-section {
+  grid-row: 2 / 4;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 10% 30% 15% 15% 20% 10%;
+  grid-template-rows: 10% 10% 30% 7.5% 15% 7.5% 20%;
+}
+
+.img-container {
+  grid-row: 3 / 7;
+  grid-column: 2 / 5;
+  background-color: yellow;
+  background-image: url("img/cake.jpg");
+  background-size: cover;
+}
+.title-container {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  z-index: 2;
+  background-color: white;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.title-container h1 {
+  font-weight: bold;
+  font-size: 2em;
+  transform: rotate(270deg) translate(10px, -10px);
+  margin: 0;
+}
+.right-section {
+  grid-row: 3 / 5;
+  grid-column: 4 / 5;
+  display: grid;
+  grid-template-columns: 30% 30% 30% 10%;
+  grid-template-rows: 10% 30% 15% 15% 20% 10%;
+}
