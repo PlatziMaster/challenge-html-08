@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    background: #2e3d5d;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container:hover .container-left, .container:hover .container-right {
+    transform: translateY(-10px);
+}
+
+
+.container-left, .container-right {
+    background-color:  white;
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    transition: .3s;
+}
+
+.container-left, .container-right {
+    display: grid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-left {
+    grid-template-columns: 50px repeat(5,1fr) 50px;
+    grid-template-rows: repeat(6,100px);
+}
+
+.container-left-image img , .container-right-image img{
+    filter: grayscale(1);
+    width: 100%;
+}
+
+.container-left-image {
+    grid-column: 2 /span 4;
+    grid-row: 2 /span 4;
+    z-index: 1;
+}
+.container-left-title {
+    background-color: white;
+    font-size: 3em;
+    z-index: 3;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+}
+
+.container-left-title p{
+    transform: rotate(-90deg); 
+    position: relative;
+    top: 80px;
+    right: 20px;
+    margin: 0px;
+}
+.container-right-parrafo, .container-left-parrafo{
+    z-index: 4;
+}
+.container-right-parrafo p, .container-left-parrafo p{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.container-left-band {
+    background-color: rgba(241, 120, 122, 0.8);
+    grid-column: 5 / span 2;
+    grid-row: 1 / span 6;
+    z-index: 3;
+}
+
+.container-left-parrafo {
+    grid-column: 4 / span 3;
+    grid-row: 4;
+    color: white;
+}
+
+.container-right {
+    grid-template-columns: 50px 100px 200px 200px 50px;
+    grid-template-rows: 50px repeat(5,100px) 50px;
+}
+
+.container-right-parrafo {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+    color: white;
+    font-size: 20px;
+}
+.container-right-parrafo p{
+    margin: 30px 35px;
+}
+
+.container-vacio {
+    background: white;
+    grid-column: 3;
+    grid-row: 4 /span 2;
+    z-index: 0;
+}
+
+.container-right-image {
+    grid-column: 3 /span 4;;
+    grid-row: 2 /span 4;
+}
+
+.container-right-band {
+    background-color: rgb(206, 204, 21,0.8);
+    grid-column: 1 / span 6;
+    grid-row: 5 / span 2;
+    z-index: 2;
+
+}
+.container-right-band p{
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0px 30px;
+}
