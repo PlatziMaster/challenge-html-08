@@ -6,28 +6,31 @@ body {
 }
 
 main {
-    background: royalblue;
+    background: #2e3d5d;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+
+.container:hover .container-left, .container:hover .container-right {
+    transform: translateY(-10px);
+}
+
+
 .container-left, .container-right {
     background-color:  white;
     width: 600px;
     height: 600px;
+    margin: 10px;
+    transition: .3s;
 }
 
 .container-left, .container-right {
     display: grid;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.container-left:hover, .container-right:hover {
-    transform: translateY(-5px);
-    transition: 0.5s;
-}
-
 
 .container-left {
     grid-template-columns: 50px repeat(5,1fr) 50px;
@@ -36,6 +39,7 @@ main {
 
 .container-left-image img , .container-right-image img{
     filter: grayscale(1);
+    width: 100%;
 }
 
 .container-left-image {
