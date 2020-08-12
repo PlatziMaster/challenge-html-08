@@ -1,0 +1,191 @@
+body {
+
+    background: #222424;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+:root {
+
+    --fondo: white;
+}
+
+/* ----- contenedores datos generales ----- */
+
+.container_1 {
+
+    border: 1px solid rgba(0,0,0,.54);
+    background: var(--fondo);
+    border-radius: 10px;
+    height:620px;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 981px;
+
+}
+
+.contaniner_principal {
+
+    border: 1px solid rgba(0,0,0,.54);
+    background: #eee;
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-rows: 10% 20% 40% 20% 10%;
+    height:610px;
+    margin: 0 auto;
+    margin-top: 4px;
+    width: 970px;
+    
+   
+
+}
+
+.coming_soon {
+
+    display: grid;
+    grid-template-columns: 15% 30% 15% 15% 10% 15%;
+    grid-template-rows: 20% 30% 30% 20%;
+    grid-row: 2 / span 2;
+    grid-column:  2 / span 1;
+    background: var(--fondo);
+    border: 1px solid #eee;
+    box-shadow:  -2px 8px 8px black;
+    
+
+}
+
+.modern_style {
+
+    display: grid;
+    grid-template-columns: 15% 10% 15% 15% 30% 15%;
+    grid-template-rows: 15% 30% 15% 16% 16% 10%;
+    grid-row: 3 / span 2;
+    grid-column:  4 / span 1;
+    background: var(--fondo);
+    border: 1px solid #eee;
+    box-shadow:  -2px 8px 8px black;
+
+}
+
+/* ----- coming soon: ubicacion de elementos ----- */
+
+
+.title_face1 {
+
+    background: var(--fondo);
+    display: grid;
+    grid-row: 1/ span 2;
+    grid-column:  2 / span 1;
+    z-index: 1;
+    
+}
+
+
+.title_h3__1 {
+
+    font-weight: 900;
+    height: 100px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    transform: rotate(-90deg);
+    width: 100px;
+   
+}
+
+
+
+.images_1 {
+
+    background-image: url('https://image.freepik.com/foto-gratis/resumen-espacio-negro-forma-retorcida-detalles-arquitectura-perspectiva-futuro-diseno-edificio-representacion-3d_224530-62.jpg');
+    background-size: cover;
+    grid-row: 2 / span 2;
+    grid-column:  2 / span 3;
+
+}
+
+
+.description_1 { 
+
+    color:  white;
+    font-size: 11px;
+    grid-row: 3 / span 1;
+    grid-column:  3 / span 3;
+    padding-left: 15px;
+    z-index: 2;
+
+}
+
+
+.headband_1 { 
+
+    background: rgb(255, 127, 148);
+    grid-row: 1 / span 4;
+    grid-column:  4 / span 2;
+    opacity: 0.9;
+  
+}
+
+
+/* ----- modern_style: ubicacion de elementos ----- */
+
+
+.title_face2 {
+
+    color: black;
+    grid-row: 4 / span 2;
+    grid-column:  2 / span 3;
+    letter-spacing: 1px;
+    z-index: 5;
+    
+}
+
+
+.headband_2 {
+
+    background: #e1f10d;
+    grid-row: 4 / span 2;
+    grid-column:  1 / span 6;
+    opacity: 0.7;
+    z-index: 4;
+
+}
+
+.title_h3 {
+
+    font-weight: 900;
+    padding-top: 10px;
+    opacity: 0.9;
+     
+}
+
+.empty_face {
+
+    background: var(--fondo);
+    grid-row: 3 / span 2;
+    grid-column:  2 / span 3;
+    z-index: 3;
+   
+}
+
+.images_2 {
+
+    background-image: url('https://us.123rf.com/450wm/kasto/kasto1511/kasto151100030/47504979-puente-de-brooklyn-y-horizonte-de-la-ciudad-de-nueva-york-manhattan-en-la-oscuridad-con-los-rascacie.jpg?ver=6');
+    background-size: cover;
+    grid-row: 2 / span 3;
+    grid-column:  3 / span 3;
+    
+}
+
+.description_2 {
+
+    color: white;
+    font-size: 11px;
+    grid-row: 2 / span 1;
+    grid-column:  3 / span 3;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+   
+}
