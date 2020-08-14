@@ -1,0 +1,58 @@
+/* .back {
+    grid-column: 1 / span 8 ;
+    grid-row: 1 / 6;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_container {
+    display: grid;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: 8% 34% 8% 8% 17% 14% 3% 8%;
+    grid-template-rows: 8% 8% 34% 5% 23% 5% 17%
+
+}
+
+.text_white {
+    background-color: white;
+    grid-column: 2 / span 1;
+    grid-row: 2/ span 2 ;
+    z-index: 1;
+    font-size: 30px;
+    transform: rotate(-90deg);
+}
+.text_white h1{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.gray_image {
+    background-image: url('https://onlineimagetools.com/images/examples-onlineimagetools/black-dog-gray-srgb.png');
+    grid-column: 2/6;
+    grid-row: 3/7;
+    opacity: 60%;
+}
+
+.redy {
+    background-color: red;
+    grid-column: 5 / span 3;
+    grid-row: 1/ span 7;
+    opacity: 40%;
+}
+
+.parrafo {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    grid-column: 4 / span 3;
+    grid-row: 5 / span 1;
+    z-index: 1;
+}
