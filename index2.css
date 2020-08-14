@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_container {
+    display: grid;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: 9% 16% 8% 9% 16% 24% 10% 8%;
+    grid-template-rows: 8% 8% 19% 7% 16% 8% 9% 17% 8%
+}
+.title {
+    display: grid;
+    grid-column: 2 /span 3;
+    grid-row: 7 / span 2;
+    /* padding-left: 65px;
+    padding-top: 50px; */
+    font-size: 33px;
+    z-index: 10;
+}
+.color {
+    grid-column: 1 / span 8;
+    grid-row: 6 / span 3;
+    background-color: #cecd14;
+    opacity: 70%;
+    z-index: 9;
+}
+.white_square {
+    grid-column: 3 / span 3;
+    grid-row: 5 / span 3;
+    background-color: white;
+    z-index: 8;
+}
+.gray_image {
+    background-image: url('https://p0.pikrepo.com/preview/948/436/grayscale-photography-of-dog-showing-its-neck.jpg');
+    grid-column: 3 / span 5;
+    grid-row: 2 / span 6;
+    opacity: 70%;
+}
+.text {
+    grid-column: 4 / span 3;
+    grid-row: 3 / span 1;
+    z-index: 10;
+    color: white;
+    font-size: 22px;
+}
